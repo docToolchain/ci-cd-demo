@@ -1,0 +1,12 @@
+image: rdmueller/doctoolchain:v2.0.5
+
+pages:
+  stage: build
+  script:
+    - export DTC_HEADLESS=true
+    - ./dtcw generateSite
+    - mkdir public
+    - cp -r build/microsite/output/. public/.
+  artifacts:
+    paths:
+      - public/

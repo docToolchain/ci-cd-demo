@@ -1,0 +1,8 @@
+= CI-CD Demo
+
+This repository demonstrates how to use docToolchain within a gitlab CI/CD pipeline.
+
+[source,yaml]
+----
+include::.gitlab-ci.yml[]
+----
