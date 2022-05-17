@@ -34,14 +34,6 @@ var documents = [
 
 {
     "id": 4,
-    "uri": "arc42/chapters/09_architecture_decisions.html",
-    "menu": "arc42",
-    "title": "Architekturentscheidungen",
-    "text": " Table of Contents Architekturentscheidungen Architekturentscheidungen Inhalt Wichtige, teure, große oder riskante Architektur- oder Entwurfsentscheidungen inklusive der jeweiligen Begründungen. Mit Entscheidungen meinen wir hier die Auswahl einer von mehreren Alternativen unter vorgegebenen Kriterien. Wägen Sie ab, inwiefern Sie Entscheidungen hier zentral beschreiben, oder wo eine lokale Beschreibung (z.B. in der Whitebox-Sicht von Bausteinen) sinnvoller ist. Vermeiden Sie Redundanz. Verweisen Sie evtl. auf Abschnitt 4, wo schon grundlegende strategische Entscheidungen beschrieben wurden. Motivation Stakeholder des Systems sollten wichtige Entscheidungen verstehen und nachvollziehen können. Form Verschiedene Möglichkeiten: ADR ( Architecture Decision Record ) für jede wichtige Entscheidung Liste oder Tabelle, nach Wichtigkeit und Tragweite der Entscheidungen geordnet ausführlicher in Form einzelner Unterkapitel je Entscheidung Weiterführende Informationen Siehe Architekturentscheidungen in der arc42 Dokumentation (auf Englisch!). Dort finden Sie Links und Beispiele zum Thema ADR. "
-},
-
-{
-    "id": 5,
     "uri": "arc42/chapters/06_runtime_view.html",
     "menu": "arc42",
     "title": "Laufzeitsicht",
@@ -49,11 +41,19 @@ var documents = [
 },
 
 {
-    "id": 6,
+    "id": 5,
     "uri": "arc42/chapters/03_system_scope_and_context.html",
     "menu": "arc42",
     "title": "Kontextabgrenzung",
     "text": " Table of Contents Kontextabgrenzung Fachlicher Kontext Technischer Kontext Kontextabgrenzung Inhalt Die Kontextabgrenzung grenzt das System von allen Kommunikationsbeziehungen (Nachbarsystemen und Benutzerrollen) ab. Sie legt damit die externen Schnittstellen fest. Differenzieren Sie fachliche (fachliche Ein- und Ausgaben) und technische Kontexte (Kanäle, Protokolle, Hardware), falls nötig. Motivation Die fachlichen und technischen Schnittstellen zur Kommunikation gehören zu den kritischsten Aspekten eines Systems. Stellen Sie sicher, dass Sie diese komplett verstanden haben. Form Verschiedene Optionen: Diverse Kontextdiagramme Listen von Kommunikationsbeziehungen mit deren Schnittstellen Weiterführende Informationen Siehe Kontextabgrenzung in der online-Dokumentation (auf Englisch!). Fachlicher Kontext Inhalt Festlegung aller Kommunikationsbeziehungen (Nutzer, IT-Systeme, &#8230;&#8203;) mit Erklärung der fachlichen Ein- und Ausgabedaten oder Schnittstellen. Zusätzlich (bei Bedarf) fachliche Datenformate oder Protokolle der Kommunikation mit den Nachbarsystemen. Motivation Alle Beteiligten müssen verstehen, welche fachlichen Informationen mit der Umwelt ausgetauscht werden. Form Alle Diagrammarten, die das System als Blackbox darstellen und die fachlichen Schnittstellen zu den Nachbarsystemen beschreiben. Alternativ oder ergänzend können Sie eine Tabelle verwenden. Der Titel gibt den Namen Ihres Systems wieder; die drei Spalten sind: Kommunikationsbeziehung, Eingabe, Ausgabe. &lt;Diagramm und/oder Tabelle&gt; &lt;optional: Erläuterung der externen fachlichen Schnittstellen&gt; Technischer Kontext Inhalt Technische Schnittstellen (Kanäle, Übertragungsmedien) zwischen dem System und seiner Umwelt. Zusätzlich eine Erklärung ( mapping ), welche fachlichen Ein- und Ausgaben über welche technischen Kanäle fließen. Motivation Viele Stakeholder treffen Architekturentscheidungen auf Basis der technischen Schnittstellen des Systems zu seinem Kontext. Insbesondere bei der Entwicklung von Infrastruktur oder Hardware sind diese technischen Schnittstellen durchaus entscheidend. Form Beispielsweise UML Deployment-Diagramme mit den Kanälen zu Nachbarsystemen, begleitet von einer Tabelle, die Kanäle auf Ein-/Ausgaben abbildet. &lt;Diagramm oder Tabelle&gt; &lt;optional: Erläuterung der externen technischen Schnittstellen&gt; &lt;Mapping fachliche auf technische Schnittstellen&gt; "
+},
+
+{
+    "id": 6,
+    "uri": "arc42/chapters/09_architecture_decisions.html",
+    "menu": "arc42",
+    "title": "Architekturentscheidungen",
+    "text": " Table of Contents Architekturentscheidungen Architekturentscheidungen Inhalt Wichtige, teure, große oder riskante Architektur- oder Entwurfsentscheidungen inklusive der jeweiligen Begründungen. Mit Entscheidungen meinen wir hier die Auswahl einer von mehreren Alternativen unter vorgegebenen Kriterien. Wägen Sie ab, inwiefern Sie Entscheidungen hier zentral beschreiben, oder wo eine lokale Beschreibung (z.B. in der Whitebox-Sicht von Bausteinen) sinnvoller ist. Vermeiden Sie Redundanz. Verweisen Sie evtl. auf Abschnitt 4, wo schon grundlegende strategische Entscheidungen beschrieben wurden. Motivation Stakeholder des Systems sollten wichtige Entscheidungen verstehen und nachvollziehen können. Form Verschiedene Möglichkeiten: ADR ( Architecture Decision Record ) für jede wichtige Entscheidung Liste oder Tabelle, nach Wichtigkeit und Tragweite der Entscheidungen geordnet ausführlicher in Form einzelner Unterkapitel je Entscheidung Weiterführende Informationen Siehe Architekturentscheidungen in der arc42 Dokumentation (auf Englisch!). Dort finden Sie Links und Beispiele zum Thema ADR. "
 },
 
 {

@@ -22,17 +22,17 @@
     </url>
 
     <url>
-    	<loc>http://jbake.org/arc42/chapters/09_architecture_decisions.html</loc>
-    	<lastmod>2022-05-17</lastmod>
-    </url>
-
-    <url>
     	<loc>http://jbake.org/arc42/chapters/06_runtime_view.html</loc>
     	<lastmod>2022-05-17</lastmod>
     </url>
 
     <url>
     	<loc>http://jbake.org/arc42/chapters/03_system_scope_and_context.html</loc>
+    	<lastmod>2022-05-17</lastmod>
+    </url>
+
+    <url>
+    	<loc>http://jbake.org/arc42/chapters/09_architecture_decisions.html</loc>
     	<lastmod>2022-05-17</lastmod>
     </url>
 
