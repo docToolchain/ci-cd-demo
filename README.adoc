@@ -1,8 +1,25 @@
 = CI-CD Demo
 
+== Gitlab
+
 This repository demonstrates how to use docToolchain within a gitlab CI/CD pipeline.
 
+..gitlab-ci.yml
 [source,yaml]
 ----
 include::.gitlab-ci.yml[]
 ----
+
+Just add the `.gitlab-ci.yml` file to the root of your project and you're ready to go.
+
+== Github
+
+...and within a Github Action workflow:
+
+..github/workflows/gh-pages.yml
+[source,yaml]
+----
+include::.github/workflows/gh-pages.yml[]
+----
+
+Add the file above to your project and create a new branch `gh-pages`"
