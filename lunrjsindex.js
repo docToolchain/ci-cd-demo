@@ -10,18 +10,18 @@ var documents = [
 
 {
     "id": 1,
-    "uri": "arc42/chapters/02_architecture_constraints.html",
-    "menu": "arc42",
-    "title": "Randbedingungen",
-    "text": " Table of Contents Randbedingungen Randbedingungen Inhalt Randbedingungen und Vorgaben, die ihre Freiheiten bezüglich Entwurf, Implementierung oder Ihres Entwicklungsprozesses einschränken. Diese Randbedingungen gelten manchmal organisations- oder firmenweit über die Grenzen einzelner Systeme hinweg. Motivation Für eine tragfähige Architektur sollten Sie genau wissen, wo Ihre Freiheitsgrade bezüglich der Entwurfsentscheidungen liegen und wo Sie Randbedingungen beachten müssen. Sie können Randbedingungen vielleicht noch verhandeln, zunächst sind sie aber da. Form Einfache Tabellen der Randbedingungen mit Erläuterungen. Bei Bedarf unterscheiden Sie technische, organisatorische und politische Randbedingungen oder übergreifende Konventionen (beispielsweise Programmier- oder Versionierungsrichtlinien, Dokumentations- oder Namenskonvention). Weiterführende Informationen Siehe Randbedingungen in der online-Dokumentation (auf Englisch!). "
-},
-
-{
-    "id": 2,
     "uri": "arc42/chapters/11_technical_risks.html",
     "menu": "arc42",
     "title": "Risiken und technische Schulden",
     "text": " Table of Contents Risiken und technische Schulden Risiken und technische Schulden Inhalt Eine nach Prioritäten geordnete Liste der erkannten Architekturrisiken und/oder technischen Schulden. Motivation Risikomanagement ist Projektmanagement für Erwachsene. &#8212; Tim Lister Atlantic Systems Guild Unter diesem Motto sollten Sie Architekturrisiken und/oder technische Schulden gezielt ermitteln, bewerten und Ihren Management-Stakeholdern (z.B. Projektleitung, Product-Owner) transparent machen. Form Liste oder Tabelle von Risiken und/oder technischen Schulden, eventuell mit vorgeschlagenen Maßnahmen zur Risikovermeidung, Risikominimierung oder dem Abbau der technischen Schulden. Weiterführende Informationen Siehe Risiken und technische Schulden in der online-Dokumentation (auf Englisch!). "
+},
+
+{
+    "id": 2,
+    "uri": "arc42/chapters/02_architecture_constraints.html",
+    "menu": "arc42",
+    "title": "Randbedingungen",
+    "text": " Table of Contents Randbedingungen Randbedingungen Inhalt Randbedingungen und Vorgaben, die ihre Freiheiten bezüglich Entwurf, Implementierung oder Ihres Entwicklungsprozesses einschränken. Diese Randbedingungen gelten manchmal organisations- oder firmenweit über die Grenzen einzelner Systeme hinweg. Motivation Für eine tragfähige Architektur sollten Sie genau wissen, wo Ihre Freiheitsgrade bezüglich der Entwurfsentscheidungen liegen und wo Sie Randbedingungen beachten müssen. Sie können Randbedingungen vielleicht noch verhandeln, zunächst sind sie aber da. Form Einfache Tabellen der Randbedingungen mit Erläuterungen. Bei Bedarf unterscheiden Sie technische, organisatorische und politische Randbedingungen oder übergreifende Konventionen (beispielsweise Programmier- oder Versionierungsrichtlinien, Dokumentations- oder Namenskonvention). Weiterführende Informationen Siehe Randbedingungen in der online-Dokumentation (auf Englisch!). "
 },
 
 {
@@ -34,18 +34,18 @@ var documents = [
 
 {
     "id": 4,
-    "uri": "arc42/chapters/06_runtime_view.html",
-    "menu": "arc42",
-    "title": "Laufzeitsicht",
-    "text": " Table of Contents Laufzeitsicht &lt;Bezeichnung Laufzeitszenario 1&gt; &lt;Bezeichnung Laufzeitszenario 2&gt; &lt;Bezeichnung Laufzeitszenario n&gt; Laufzeitsicht Inhalt Diese Sicht erklärt konkrete Abläufe und Beziehungen zwischen Bausteinen in Form von Szenarien aus den folgenden Bereichen: Wichtige Abläufe oder Features : Wie führen die Bausteine der Architektur die wichtigsten Abläufe durch? Interaktionen an kritischen externen Schnittstellen: Wie arbeiten Bausteine mit Nutzern und Nachbarsystemen zusammen? Betrieb und Administration: Inbetriebnahme, Start, Stop. Fehler- und Ausnahmeszenarien Anmerkung: Das Kriterium für die Auswahl der möglichen Szenarien (d.h. Abläufe) des Systems ist deren Architekturrelevanz. Es geht nicht darum, möglichst viele Abläufe darzustellen, sondern eine angemessene Auswahl zu dokumentieren. Motivation Sie sollten verstehen, wie (Instanzen von) Bausteine(n) Ihres Systems ihre jeweiligen Aufgaben erfüllen und zur Laufzeit miteinander kommunizieren. Nutzen Sie diese Szenarien in der Dokumentation hauptsächlich für eine verständlichere Kommunikation mit denjenigen Stakeholdern, die die statischen Modelle (z.B. Bausteinsicht, Verteilungssicht) weniger verständlich finden. Form Für die Beschreibung von Szenarien gibt es zahlreiche Ausdrucksmöglichkeiten. Nutzen Sie beispielsweise: Nummerierte Schrittfolgen oder Aufzählungen in Umgangssprache Aktivitäts- oder Flussdiagramme Sequenzdiagramme BPMN (Geschäftsprozessmodell und -notation) oder EPKs (Ereignis-Prozessketten) Zustandsautomaten &#8230;&#8203; Weiterführende Informationen Siehe Laufzeitsicht in der online-Dokumentation (auf Englisch!). &lt;Bezeichnung Laufzeitszenario 1&gt; &lt;hier Laufzeitdiagramm oder Ablaufbeschreibung einfügen&gt; &lt;hier Besonderheiten bei dem Zusammenspiel der Bausteine in diesem Szenario erläutern&gt; &lt;Bezeichnung Laufzeitszenario 2&gt; &#8230;&#8203; &lt;Bezeichnung Laufzeitszenario n&gt; &#8230;&#8203; "
-},
-
-{
-    "id": 5,
     "uri": "arc42/chapters/09_architecture_decisions.html",
     "menu": "arc42",
     "title": "Architekturentscheidungen",
     "text": " Table of Contents Architekturentscheidungen Architekturentscheidungen Inhalt Wichtige, teure, große oder riskante Architektur- oder Entwurfsentscheidungen inklusive der jeweiligen Begründungen. Mit Entscheidungen meinen wir hier die Auswahl einer von mehreren Alternativen unter vorgegebenen Kriterien. Wägen Sie ab, inwiefern Sie Entscheidungen hier zentral beschreiben, oder wo eine lokale Beschreibung (z.B. in der Whitebox-Sicht von Bausteinen) sinnvoller ist. Vermeiden Sie Redundanz. Verweisen Sie evtl. auf Abschnitt 4, wo schon grundlegende strategische Entscheidungen beschrieben wurden. Motivation Stakeholder des Systems sollten wichtige Entscheidungen verstehen und nachvollziehen können. Form Verschiedene Möglichkeiten: ADR ( Architecture Decision Record ) für jede wichtige Entscheidung Liste oder Tabelle, nach Wichtigkeit und Tragweite der Entscheidungen geordnet ausführlicher in Form einzelner Unterkapitel je Entscheidung Weiterführende Informationen Siehe Architekturentscheidungen in der arc42 Dokumentation (auf Englisch!). Dort finden Sie Links und Beispiele zum Thema ADR. "
+},
+
+{
+    "id": 5,
+    "uri": "arc42/chapters/06_runtime_view.html",
+    "menu": "arc42",
+    "title": "Laufzeitsicht",
+    "text": " Table of Contents Laufzeitsicht &lt;Bezeichnung Laufzeitszenario 1&gt; &lt;Bezeichnung Laufzeitszenario 2&gt; &lt;Bezeichnung Laufzeitszenario n&gt; Laufzeitsicht Inhalt Diese Sicht erklärt konkrete Abläufe und Beziehungen zwischen Bausteinen in Form von Szenarien aus den folgenden Bereichen: Wichtige Abläufe oder Features : Wie führen die Bausteine der Architektur die wichtigsten Abläufe durch? Interaktionen an kritischen externen Schnittstellen: Wie arbeiten Bausteine mit Nutzern und Nachbarsystemen zusammen? Betrieb und Administration: Inbetriebnahme, Start, Stop. Fehler- und Ausnahmeszenarien Anmerkung: Das Kriterium für die Auswahl der möglichen Szenarien (d.h. Abläufe) des Systems ist deren Architekturrelevanz. Es geht nicht darum, möglichst viele Abläufe darzustellen, sondern eine angemessene Auswahl zu dokumentieren. Motivation Sie sollten verstehen, wie (Instanzen von) Bausteine(n) Ihres Systems ihre jeweiligen Aufgaben erfüllen und zur Laufzeit miteinander kommunizieren. Nutzen Sie diese Szenarien in der Dokumentation hauptsächlich für eine verständlichere Kommunikation mit denjenigen Stakeholdern, die die statischen Modelle (z.B. Bausteinsicht, Verteilungssicht) weniger verständlich finden. Form Für die Beschreibung von Szenarien gibt es zahlreiche Ausdrucksmöglichkeiten. Nutzen Sie beispielsweise: Nummerierte Schrittfolgen oder Aufzählungen in Umgangssprache Aktivitäts- oder Flussdiagramme Sequenzdiagramme BPMN (Geschäftsprozessmodell und -notation) oder EPKs (Ereignis-Prozessketten) Zustandsautomaten &#8230;&#8203; Weiterführende Informationen Siehe Laufzeitsicht in der online-Dokumentation (auf Englisch!). &lt;Bezeichnung Laufzeitszenario 1&gt; &lt;hier Laufzeitdiagramm oder Ablaufbeschreibung einfügen&gt; &lt;hier Besonderheiten bei dem Zusammenspiel der Bausteine in diesem Szenario erläutern&gt; &lt;Bezeichnung Laufzeitszenario 2&gt; &#8230;&#8203; &lt;Bezeichnung Laufzeitszenario n&gt; &#8230;&#8203; "
 },
 
 {
