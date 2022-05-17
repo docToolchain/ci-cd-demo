@@ -1,5 +1,7 @@
 = CI-CD Demo
 
+:icons: font
+
 == Gitlab
 
 This repository demonstrates how to use docToolchain within a gitlab CI/CD pipeline.
@@ -16,6 +18,10 @@ To find the URL for your new microsite, navigate to `Settings` > `Pages`.
 
 https://doctoolchain.gitlab.io/ci-cd-demo/
 
+NOTE: Gitlab has a special feature which github is missing: you can change the visibility of the microsite.
+Go to `Settings` > `General` > `Visibility`.
+There you can restrict the visibility to project members only.
+
 == Github
 
 ...and within a Github Action workflow:
@@ -31,7 +37,7 @@ This will create a new branch called `gh-pages`.
 It contains the HTML source of your microsite.
 
 Now you have to tell github to deploy these sources to the server.
-Got to `Settings`> `Pages` and set as Source the `gh-pages` branch.
+Got to `Settings` > `Pages` and set as Source the `gh-pages` branch.
 
 image::github-settings-screenshot.png[]
 
@@ -39,3 +45,5 @@ Now wait until the deployment is finished.
 The URL for your microsite is displayed in the green box of the settings page.
 
 http://doctoolchain.org/ci-cd-demo/
+
+WARNING: Github pages are always public - even if your repository is private.
