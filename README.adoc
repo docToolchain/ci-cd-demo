@@ -46,3 +46,32 @@ The URL for your microsite is displayed in the green box of the settings page.
 http://doctoolchain.org/ci-cd-demo/
 
 WARNING: Github pages are always public - even if your repository is private.
+
+== Jenkins
+
+[NOTE]
+.Jenkins build agent types
+====
+Jenkins supports different types of so-called _Build Agents_ (cf. https://wiki.jenkins-ci.org/display/JENKINS/Distributed+builds[Jenkins Distributed Builds]).
+In this example we use a Docker based build agent which is connected via SSH to the Jenkins controller.
+There are many more ways to perform the same result.
+====
+
+.`Jenkinsfile`
+[source,groovy]
+----
+include::Jenkinsfile[]
+----
+<1> Using a Docker build agent already requires several plugins in your Jenkins installation.
++
+[WARNING]
+====
+The embedded link:dtcw[`dtcw` script] is not used here as the Docker based build performs best when the version from the image is used (including all dependant tools).
+Otherwise the Docker container might start to download many other tools, including `doctoolchain`, in their respective versions any time you start your build.
+====
+<2> The sample just generates some HTML and checks for its link sanity.
+Other tasks might be used as well.
+
+When the build was successful you might find the generated artifact in workspace of the Jenkins job.
+
+image::jenkins-workspace-with-build-artifact.png[alt="Jenkins build workspace with generated arc42 artifact"]
