@@ -1,12 +1,13 @@
+:icons: font
+:toc: left
+
 = CI-CD Demo
 
-:icons: font
+This repository demonstrates how to use docToolchain with misc. _Continuous Integration_ (CI) environments (aka. _Build Servers_)
 
 == Gitlab
 
-This repository demonstrates how to use docToolchain within a gitlab CI/CD pipeline.
-
-..gitlab-ci.yml
+.`.gitlab-ci.yml`
 [source,yaml]
 ----
 include::.gitlab-ci.yml[]
@@ -24,9 +25,7 @@ There you can restrict the visibility to project members only.
 
 == Github
 
-...and within a Github Action workflow:
-
-..github/workflows/gh-pages.yml
+.`.github/workflows/gh-pages.yml`
 [source,yaml]
 ----
 include::.github/workflows/gh-pages.yml[]
