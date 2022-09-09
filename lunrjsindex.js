@@ -2,18 +2,18 @@ var documents = [
 
 {
     "id": 0,
-    "uri": "arc42/chapters/11_technical_risks.html",
-    "menu": "arc42",
-    "title": "Risiken und technische Schulden",
-    "text": " Table of Contents Risiken und technische Schulden Risiken und technische Schulden Inhalt Eine nach Prioritäten geordnete Liste der erkannten Architekturrisiken und/oder technischen Schulden. Motivation Risikomanagement ist Projektmanagement für Erwachsene. &#8212; Tim Lister Atlantic Systems Guild Unter diesem Motto sollten Sie Architekturrisiken und/oder technische Schulden gezielt ermitteln, bewerten und Ihren Management-Stakeholdern (z.B. Projektleitung, Product-Owner) transparent machen. Form Liste oder Tabelle von Risiken und/oder technischen Schulden, eventuell mit vorgeschlagenen Maßnahmen zur Risikovermeidung, Risikominimierung oder dem Abbau der technischen Schulden. Weiterführende Informationen Siehe Risiken und technische Schulden in der online-Dokumentation (auf Englisch!). "
-},
-
-{
-    "id": 1,
     "uri": "arc42/chapters/04_solution_strategy.html",
     "menu": "arc42",
     "title": "Lösungsstrategie",
     "text": " Table of Contents Lösungsstrategie Lösungsstrategie Inhalt Kurzer Überblick über die grundlegenden Entscheidungen und Lösungsansätze, die Entwurf und Implementierung des Systems prägen. Hierzu gehören: Technologieentscheidungen Entscheidungen über die Top-Level-Zerlegung des Systems, beispielsweise die Verwendung gesamthaft prägender Entwurfs- oder Architekturmuster, Entscheidungen zur Erreichung der wichtigsten Qualitätsanforderungen sowie relevante organisatorische Entscheidungen, beispielsweise für bestimmte Entwicklungsprozesse oder Delegation bestimmter Aufgaben an andere Stakeholder. Motivation Diese wichtigen Entscheidungen bilden wesentliche „Eckpfeiler“ der Architektur. Von ihnen hängen viele weitere Entscheidungen oder Implementierungsregeln ab. Form Fassen Sie die zentralen Entwurfsentscheidungen kurz zusammen. Motivieren Sie, ausgehend von Aufgabenstellung, Qualitätszielen und Randbedingungen, was Sie entschieden haben und warum Sie so entschieden haben. Vermeiden Sie redundante Beschreibungen und verweisen Sie eher auf weitere Ausführungen in Folgeabschnitten. Weiterführende Informationen Siehe Lösungsstrategie in der online-Dokumentation (auf Englisch!). "
+},
+
+{
+    "id": 1,
+    "uri": "arc42/chapters/11_technical_risks.html",
+    "menu": "arc42",
+    "title": "Risiken und technische Schulden",
+    "text": " Table of Contents Risiken und technische Schulden Risiken und technische Schulden Inhalt Eine nach Prioritäten geordnete Liste der erkannten Architekturrisiken und/oder technischen Schulden. Motivation Risikomanagement ist Projektmanagement für Erwachsene. &#8212; Tim Lister Atlantic Systems Guild Unter diesem Motto sollten Sie Architekturrisiken und/oder technische Schulden gezielt ermitteln, bewerten und Ihren Management-Stakeholdern (z.B. Projektleitung, Product-Owner) transparent machen. Form Liste oder Tabelle von Risiken und/oder technischen Schulden, eventuell mit vorgeschlagenen Maßnahmen zur Risikovermeidung, Risikominimierung oder dem Abbau der technischen Schulden. Weiterführende Informationen Siehe Risiken und technische Schulden in der online-Dokumentation (auf Englisch!). "
 },
 
 {
@@ -42,18 +42,18 @@ var documents = [
 
 {
     "id": 5,
-    "uri": "arc42/chapters/08_concepts.html",
-    "menu": "arc42",
-    "title": "Querschnittliche Konzepte",
-    "text": " Table of Contents Querschnittliche Konzepte &lt;Konzept 1&gt; &lt;Konzept 2&gt; &lt;Konzept n&gt; Querschnittliche Konzepte Inhalt Dieser Abschnitt beschreibt übergreifende, prinzipielle Regelungen und Lösungsansätze, die an mehreren Stellen (= querschnittlich ) relevant sind. Solche Konzepte betreffen oft mehrere Bausteine. Dazu können vielerlei Themen gehören, beispielsweise: Modelle, insbesondere fachliche Modelle Architektur- oder Entwurfsmuster Regeln für den konkreten Einsatz von Technologien prinzipielle&#8201;&#8212;&#8201;meist technische&#8201;&#8212;&#8201;Festlegungen übergreifender Art Implementierungsregeln Motivation Konzepte bilden die Grundlage für konzeptionelle Integrität (Konsistenz, Homogenität) der Architektur und damit eine wesentliche Grundlage für die innere Qualität Ihrer Systeme. Manche dieser Themen lassen sich nur schwer als Baustein in der Architektur unterbringen (z.B. das Thema „Sicherheit“). Form Kann vielfältig sein: Konzeptpapiere mit beliebiger Gliederung, übergreifende Modelle/Szenarien mit Notationen, die Sie auch in den Architektursichten nutzen, beispielhafte Implementierung speziell für technische Konzepte, Verweise auf „übliche“ Nutzung von Standard-Frameworks (beispielsweise die Nutzung von Hibernate als Object/Relational Mapper). Struktur Eine mögliche (nicht aber notwendige!) Untergliederung dieses Abschnittes könnte wie folgt aussehen (wobei die Zuordnung von Themen zu den Gruppen nicht immer eindeutig ist): Fachliche Konzepte User Experience (UX) Sicherheitskonzepte (Safety und Security) Architektur- und Entwurfsmuster Unter-der-Haube Entwicklungskonzepte Betriebskonzepte Weiterführende Informationen Siehe Querschnittliche Konzepte in der online-Dokumentation (auf Englisch). &lt;Konzept 1&gt; &lt;Erklärung&gt; &lt;Konzept 2&gt; &lt;Erklärung&gt; &#8230;&#8203; &lt;Konzept n&gt; &lt;Erklärung&gt; "
-},
-
-{
-    "id": 6,
     "uri": "arc42/chapters/02_architecture_constraints.html",
     "menu": "arc42",
     "title": "Randbedingungen",
     "text": " Table of Contents Randbedingungen Randbedingungen Inhalt Randbedingungen und Vorgaben, die ihre Freiheiten bezüglich Entwurf, Implementierung oder Ihres Entwicklungsprozesses einschränken. Diese Randbedingungen gelten manchmal organisations- oder firmenweit über die Grenzen einzelner Systeme hinweg. Motivation Für eine tragfähige Architektur sollten Sie genau wissen, wo Ihre Freiheitsgrade bezüglich der Entwurfsentscheidungen liegen und wo Sie Randbedingungen beachten müssen. Sie können Randbedingungen vielleicht noch verhandeln, zunächst sind sie aber da. Form Einfache Tabellen der Randbedingungen mit Erläuterungen. Bei Bedarf unterscheiden Sie technische, organisatorische und politische Randbedingungen oder übergreifende Konventionen (beispielsweise Programmier- oder Versionierungsrichtlinien, Dokumentations- oder Namenskonvention). Weiterführende Informationen Siehe Randbedingungen in der online-Dokumentation (auf Englisch!). "
+},
+
+{
+    "id": 6,
+    "uri": "arc42/chapters/08_concepts.html",
+    "menu": "arc42",
+    "title": "Querschnittliche Konzepte",
+    "text": " Table of Contents Querschnittliche Konzepte &lt;Konzept 1&gt; &lt;Konzept 2&gt; &lt;Konzept n&gt; Querschnittliche Konzepte Inhalt Dieser Abschnitt beschreibt übergreifende, prinzipielle Regelungen und Lösungsansätze, die an mehreren Stellen (= querschnittlich ) relevant sind. Solche Konzepte betreffen oft mehrere Bausteine. Dazu können vielerlei Themen gehören, beispielsweise: Modelle, insbesondere fachliche Modelle Architektur- oder Entwurfsmuster Regeln für den konkreten Einsatz von Technologien prinzipielle&#8201;&#8212;&#8201;meist technische&#8201;&#8212;&#8201;Festlegungen übergreifender Art Implementierungsregeln Motivation Konzepte bilden die Grundlage für konzeptionelle Integrität (Konsistenz, Homogenität) der Architektur und damit eine wesentliche Grundlage für die innere Qualität Ihrer Systeme. Manche dieser Themen lassen sich nur schwer als Baustein in der Architektur unterbringen (z.B. das Thema „Sicherheit“). Form Kann vielfältig sein: Konzeptpapiere mit beliebiger Gliederung, übergreifende Modelle/Szenarien mit Notationen, die Sie auch in den Architektursichten nutzen, beispielhafte Implementierung speziell für technische Konzepte, Verweise auf „übliche“ Nutzung von Standard-Frameworks (beispielsweise die Nutzung von Hibernate als Object/Relational Mapper). Struktur Eine mögliche (nicht aber notwendige!) Untergliederung dieses Abschnittes könnte wie folgt aussehen (wobei die Zuordnung von Themen zu den Gruppen nicht immer eindeutig ist): Fachliche Konzepte User Experience (UX) Sicherheitskonzepte (Safety und Security) Architektur- und Entwurfsmuster Unter-der-Haube Entwicklungskonzepte Betriebskonzepte Weiterführende Informationen Siehe Querschnittliche Konzepte in der online-Dokumentation (auf Englisch). &lt;Konzept 1&gt; &lt;Erklärung&gt; &lt;Konzept 2&gt; &lt;Erklärung&gt; &#8230;&#8203; &lt;Konzept n&gt; &lt;Erklärung&gt; "
 },
 
 {
