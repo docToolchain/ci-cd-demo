@@ -22,12 +22,12 @@
     </url>
 
     <url>
-    	<loc>http://jbake.org/arc42/chapters/09_architecture_decisions.html</loc>
+    	<loc>http://jbake.org/arc42/chapters/08_concepts.html</loc>
     	<lastmod>2022-10-30</lastmod>
     </url>
 
     <url>
-    	<loc>http://jbake.org/arc42/chapters/08_concepts.html</loc>
+    	<loc>http://jbake.org/arc42/chapters/09_architecture_decisions.html</loc>
     	<lastmod>2022-10-30</lastmod>
     </url>
 
@@ -57,12 +57,12 @@
     </url>
 
     <url>
-    	<loc>http://jbake.org/arc42/chapters/03_system_scope_and_context.html</loc>
+    	<loc>http://jbake.org/arc42/arc42.html</loc>
     	<lastmod>2022-10-30</lastmod>
     </url>
 
     <url>
-    	<loc>http://jbake.org/arc42/arc42.html</loc>
+    	<loc>http://jbake.org/arc42/chapters/03_system_scope_and_context.html</loc>
     	<lastmod>2022-10-30</lastmod>
     </url>
 
