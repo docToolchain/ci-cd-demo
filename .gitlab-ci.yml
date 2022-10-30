@@ -1,4 +1,4 @@
-image: rdmueller/doctoolchain:v2.0.5
+image: doctoolchain/doctoolchain:v2.1.0
 
 pages:
   stage: build
